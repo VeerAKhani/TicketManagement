@@ -1,0 +1,8 @@
+spring:
+  application.name: ticket-configurations
+  data.mongodb:
+    auto-index-creation: true
+    uri: mongodb://localhost:27017/ticket
+
+server:
+  port: 8181
