@@ -4,13 +4,10 @@ import com.demo.ticketManagement.ticketManagement.enums.TicketStatusType;
 import com.demo.ticketManagement.ticketManagement.model.Ticket;
 import com.demo.ticketManagement.ticketManagement.repository.TicketRepository;
 import com.demo.ticketManagement.ticketManagement.service.TicketService;
-import com.demo.ticketManagement.ticketManagement.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
-import sun.util.resources.cldr.kea.TimeZoneNames_kea;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
